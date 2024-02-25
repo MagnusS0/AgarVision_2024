@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "agarvision"
+version = "0.1.0"
+description = ""
+authors = ["Magnus <97634880+MagnusS0@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+urllib3 = "<2.0"
+torch = "^2.2.1"
+torchvision = "^0.17.1"
+numpy = "^1.26.4"
+kaggle = "^1.6.6"
+matplotlib = "^3.8.3"
+pandas = "^2.2.1"
+scikit-image = "^0.22.0"
+scikit-learn = "^1.4.1.post1"
+tensorboard = "^2.16.2"
+torch-tb-profiler = "^0.4.3"
+torchinfo = "^1.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
